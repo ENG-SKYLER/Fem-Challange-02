@@ -104,15 +104,19 @@ svg {
     grid-template-rows: auto;
     background-color: var(--white);
     border-radius: 10px;
-    width: 50%;
+    width: 42%;
     margin: auto;
     transform: translateY(50%);
+    height: auto;
   }
   .image {
-    background-image: url(https://eng-skyler.github.io/Fem-Challange-02/images/image-product-desktop.jpg);
+    background-image: url("https://eng-skyler.github.io/Fem-Challange-02/images/image-product-desktop.JPG");
     background-position: center;
   }
   .details {
     padding: 30px;
+  }
+  .details .pricing {
+    margin-bottom: 25px;
   }
 }
